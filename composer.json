@@ -1,0 +1,23 @@
+{
+    "name": "ketwaroo/autoroute",
+    "description": "",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Ketwaroo\\Autoroute\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
