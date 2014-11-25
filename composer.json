@@ -1,10 +1,10 @@
 {
-    "name": "ketwaroo/autoroute",
+    "name": "ketwaroo/laravel-autoroute",
     "description": "",
     "authors": [
         {
-            "name": "",
-            "email": ""
+            "name": "Ketwaroo Yaasir",
+            "email": "ketwaroo.yaasir@gmail.com"
         }
     ],
     "require": {
