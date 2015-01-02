@@ -1,23 +1,26 @@
 {
-    "name": "ketwaroo/laravel-autoroute",
-    "description": "",
-    "authors": [
-        {
-            "name": "Ketwaroo Yaasir",
-            "email": "ketwaroo.yaasir@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
-    },
-    "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
-        "psr-0": {
-            "Ketwaroo\\Autoroute\\": "src/"
-        }
-    },
-    "minimum-stability": "stable"
+	"name": "ketwaroo/laravel-autoroute",
+	"description": "",
+	"authors": [
+		{
+			"name": "Ketwaroo Yaasir",
+			"email": "ketwaroo.yaasir@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "4.2.*"
+	},
+	"autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+		"psr-0": {
+			"Ketwaroo\\LaravelAutoroute\\": "src/"
+		},
+		"psr-4": {
+			"Ketwaroo\\LaravelAutoroute\\Controllers": "src/controllers"
+		}
+	},
+	"minimum-stability": "stable"
 }

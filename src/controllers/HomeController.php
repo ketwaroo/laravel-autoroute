@@ -1,18 +1,18 @@
 <?php
 
 /**
- * @copyright (c) 2014, 3C Institute
+ * 
  */
 
 namespace Cccisd\Autoroute\Controllers;
 
-use Cccisd\Framework\Controller\AbstractController;
+
 
 /**
  *
  * @author "Yaasir Ketwaroo <ketwaroo.yaasir@gmail.com>"
  */
-class HomeController extends AbstractController
+class HomeController extends \Illuminate\Routing\Controller
 {
 
     public function checkAuth()

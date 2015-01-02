@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @copyright (c) 2014, 3C Institute
+ * 
  * @author Yaasir Ketwaroo <ketwaroo.yaasir@gmail.com>
  */
 use Cccisd\Autoroute\Constant as ARConst;

@@ -1,8 +1,8 @@
-<?php namespace Ketwaroo\Autoroute;
+<?php namespace Ketwaroo\LaravelAutoroute;
 
-use Illuminate\Support\ServiceProvider;
+use Ketwaroo\LaravelFrameworkUtil\ServiceProvider\AbstractServiceProvider;
 
-class AutorouteServiceProvider extends ServiceProvider {
+class LaravelAutorouteServiceProvider extends AbstractServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.

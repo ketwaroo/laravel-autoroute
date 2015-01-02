@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @copyright (c) 2014, 3C Institute
+ * 
  */
 
 namespace Cccisd\Autoroute\Controllers;
